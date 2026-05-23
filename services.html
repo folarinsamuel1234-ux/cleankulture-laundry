@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — CleanKulture Laundry Services</title>
+  <meta name="description" content="Explore CleanKulture's full range of laundry services — Wash & Fold, Dry Cleaning, Ironing, Duvets & Bedding, Pickup & Delivery, and Commercial Laundry.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@300;400;500&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader-wrap"><div class="loader"></div></div>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announce-bar">
+    <i class="fas fa-truck"></i> Free Pickup & Delivery on First Order
+    <span>|</span>
+    <i class="fas fa-bolt"></i> Same-Day Service Available
+    <span>|</span>
+    <i class="fas fa-shield-alt"></i> Professional Care Guaranteed
+    <button class="announce-close" aria-label="Close announcement"><i class="fas fa-times"></i></button>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><i class="fas fa-tshirt"></i></div>
+          <div>
+            <div class="logo-text">Clean<span>Kulture</span></div>
+            <div class="logo-sub">Laundry Services</div>
+          </div>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+          <a href="https://wa.me/2347054004525?text=Good%20day%2C%20my%20name%20is%20%5BYour%20Name%5D.%20I%20am%20located%20at%20%5BYour%20Area%20in%20Ibadan%5D.%20I%20would%20like%20to%20%5Bdescribe%20how%20CleanKulture%20can%20help%20you%5D" class="btn btn-wa btn-sm"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          <a href="index.html#book" class="btn btn-primary btn-sm">Book Pickup</a>
+        </div>
+        <button class="hamburger" id="menuToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="mobile-ctas">
+        <a href="https://wa.me/2347054004525?text=Good%20day%2C%20my%20name%20is%20%5BYour%20Name%5D.%20I%20am%20located%20at%20%5BYour%20Area%20in%20Ibadan%5D.%20I%20would%20like%20to%20%5Bdescribe%20how%20CleanKulture%20can%20help%20you%5D" class="btn btn-wa"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+        <a href="index.html#book" class="btn btn-primary">Book Pickup</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> <i class="fas fa-chevron-right" style="font-size:.6rem;"></i> <span>Services</span>
+      </div>
+      <h1>Our <span class="accent">Services</span></h1>
+      <p>From everyday wear to specialty fabrics, we provide premium laundry solutions tailored to your needs. Explore our full range of services below.</p>
+    </div>
+  </div>
+
+  <!-- WASH & FOLD -->
+  <div class="service-detail" id="wash-fold">
+    <div class="container">
+      <div class="service-detail-grid">
+        <div class="service-detail-visual reveal-left">
+          <img src="images/wash-fold.jpg" alt="Wash & Fold Service" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-lg);">
+        </div>
+        <div class="service-detail-content reveal-right">
+          <span class="section-tag">Wash & Fold</span>
+          <h2 class="section-title">Everyday Laundry, Elevated</h2>
+          <p>Your everyday clothes deserve more than a quick toss in the machine. Our Wash & Fold service ensures each item is properly sorted, washed with premium detergent, dried to the right temperature, and neatly folded — ready to go straight into your wardrobe.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Sorted by colour and fabric type</li>
+            <li><i class="fas fa-check-circle"></i> Premium, skin-friendly detergents</li>
+            <li><i class="fas fa-check-circle"></i> Dried at optimal temperatures</li>
+            <li><i class="fas fa-check-circle"></i> Neatly folded and packaged</li>
+            <li><i class="fas fa-check-circle"></i> 48-hour standard turnaround</li>
+          </ul>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="index.html#book" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Book This Service</a>
+            <a href="pricing.html" class="btn btn-outline-navy"><i class="fas fa-tags"></i> View Pricing</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DRY CLEANING -->
+  <div class="service-detail" id="dry-cleaning">
+    <div class="container">
+      <div class="service-detail-grid">
+        <div class="service-detail-content reveal-left">
+          <span class="section-tag">Dry Cleaning</span>
+          <h2 class="section-title">Gentle Care for Delicate Fabrics</h2>
+          <p>Some garments need more than a regular wash. Our professional dry cleaning service uses advanced solvent-based cleaning to gently remove stains, odours, and dirt from delicate fabrics — without water, without shrinkage, without compromise.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Specialist solvent cleaning</li>
+            <li><i class="fas fa-check-circle"></i> Safe for silk, wool, and synthetics</li>
+            <li><i class="fas fa-check-circle"></i> Stain pre-treatment included</li>
+            <li><i class="fas fa-check-circle"></i> Pressed and hung on quality hangers</li>
+            <li><i class="fas fa-check-circle"></i> Ideal for suits, gowns & formal wear</li>
+          </ul>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="index.html#book" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Book This Service</a>
+            <a href="pricing.html" class="btn btn-outline-navy"><i class="fas fa-tags"></i> View Pricing</a>
+          </div>
+        </div>
+        <div class="service-detail-visual reveal-right">
+          <img src="images/dry-cleaning.jpg" alt="Dry Cleaning Service" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-lg);">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- IRONING & PRESSING -->
+  <div class="service-detail" id="ironing">
+    <div class="container">
+      <div class="service-detail-grid">
+        <div class="service-detail-visual reveal-left">
+          <img src="images/ironing.webp" alt="Ironing & Pressing Service" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-lg);">
+        </div>
+        <div class="service-detail-content reveal-right">
+          <span class="section-tag">Ironing & Pressing</span>
+          <h2 class="section-title">Crisp, Wrinkle-Free Perfection</h2>
+          <p>Nothing makes an impression like a perfectly pressed outfit. Our ironing and pressing service gives your corporate wear, traditional attire, and casual outfits a sharp, professional finish — as if they just came from the store.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Professional steam pressing</li>
+            <li><i class="fas fa-check-circle"></i> Temperature adjusted per fabric</li>
+            <li><i class="fas fa-check-circle"></i> Collars, cuffs & pleats precision-pressed</li>
+            <li><i class="fas fa-check-circle"></i> Available as standalone service</li>
+            <li><i class="fas fa-check-circle"></i> Perfect for corporate & event outfits</li>
+          </ul>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="index.html#book" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Book This Service</a>
+            <a href="pricing.html" class="btn btn-outline-navy"><i class="fas fa-tags"></i> View Pricing</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PICKUP & DELIVERY -->
+  <div class="service-detail" id="pickup-delivery">
+    <div class="container">
+      <div class="service-detail-grid">
+        <div class="service-detail-content reveal-left">
+          <span class="section-tag">Pickup & Delivery</span>
+          <h2 class="section-title">Door-to-Door Convenience</h2>
+          <p>Why leave your house when we can come to you? Our pickup and delivery service means you never have to carry a bag of laundry again. Schedule a pickup, and we'll handle the rest — from your doorstep back to your doorstep, fresh and on time.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Free pickup on first order</li>
+            <li><i class="fas fa-check-circle"></i> Same-day or next-day delivery</li>
+            <li><i class="fas fa-check-circle"></i> Covers Kuola, Challenge, Apata, Sango, U.I, Iwo Road & more</li>
+            <li><i class="fas fa-check-circle"></i> WhatsApp booking available</li>
+            <li><i class="fas fa-check-circle"></i> SMS/WhatsApp status updates</li>
+          </ul>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="index.html#book" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Schedule Pickup</a>
+            <a href="contact.html" class="btn btn-outline-navy"><i class="fas fa-map-marker-alt"></i> Check Coverage</a>
+          </div>
+        </div>
+        <div class="service-detail-visual reveal-right">
+          <img src="images/pickup-delivery.jpeg" alt="Pickup & Delivery Service" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-lg);">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DUVETS & BEDDING -->
+  <div class="service-detail" id="duvets">
+    <div class="container">
+      <div class="service-detail-grid">
+        <div class="service-detail-visual reveal-left">
+          <img src="images/duvet-bedding.jpg" alt="Duvets & Bedding Service" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-lg);">
+        </div>
+        <div class="service-detail-content reveal-right">
+          <span class="section-tag">Duvets & Bedding</span>
+          <h2 class="section-title">Sleep Fresh, Live Fresh</h2>
+          <p>Your bed should be the cleanest place in your home. Our duvets and bedding service deep-cleans comforters, duvets, pillowcases, and bed sheets — removing dust mites, allergens, and sweat for a hygienically clean sleep environment.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Deep-clean for duvets & comforters</li>
+            <li><i class="fas fa-check-circle"></i> Hypoallergenic treatment available</li>
+            <li><i class="fas fa-check-circle"></i> Pillow & cushion cleaning</li>
+            <li><i class="fas fa-check-circle"></i> Bed sheet sets washed & pressed</li>
+            <li><i class="fas fa-check-circle"></i> Ideal for homes & Airbnb properties</li>
+          </ul>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="index.html#book" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Book This Service</a>
+            <a href="pricing.html" class="btn btn-outline-navy"><i class="fas fa-tags"></i> View Pricing</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMMERCIAL LAUNDRY -->
+  <div class="service-detail" id="commercial">
+    <div class="container">
+      <div class="service-detail-grid">
+        <div class="service-detail-content reveal-left">
+          <span class="section-tag">Commercial Laundry</span>
+          <h2 class="section-title">Bulk Laundry for Businesses</h2>
+          <p>Running a hotel, restaurant, or Airbnb? Let us handle your linen so you can focus on your guests. Our commercial laundry service offers high-volume solutions with dedicated account management, flexible schedules, and volume discounts.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> High-volume processing capacity</li>
+            <li><i class="fas fa-check-circle"></i> Dedicated account manager</li>
+            <li><i class="fas fa-check-circle"></i> Flexible pickup schedules</li>
+            <li><i class="fas fa-check-circle"></i> Volume discounts available</li>
+            <li><i class="fas fa-check-circle"></i> Hotels, restaurants, Airbnb & more</li>
+          </ul>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary"><i class="fas fa-building"></i> Get Commercial Quote</a>
+            <a href="https://wa.me/2347054004525?text=Good%20day%2C%20my%20name%20is%20%5BYour%20Name%5D.%20I%20am%20located%20at%20%5BYour%20Area%20in%20Ibadan%5D.%20I%20would%20like%20to%20%5Bdescribe%20how%20CleanKulture%20can%20help%20you%5D" class="btn btn-wa"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+          </div>
+        </div>
+        <div class="service-detail-visual reveal-right">
+          <img src="images/commercial-laundry.jpg" alt="Commercial Laundry Service" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-lg);">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICE FAQ -->
+  <section class="faq">
+    <div class="container">
+      <div class="section-head text-center reveal">
+        <span class="section-tag">FAQ</span>
+        <h2 class="section-title">Service Questions</h2>
+        <p class="section-sub">Quick answers about our services.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Can I combine multiple services in one order?
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-a">Absolutely! You can mix wash & fold, dry cleaning, ironing, and bedding in a single pickup. Just let us know what you need and we'll sort everything accordingly.</div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Do you use my detergent or yours?
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-a">We use our own premium, skin-friendly detergents. However, if you have a preferred detergent or need hypoallergenic products, just let us know and we'll accommodate your request.</div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            What happens if my clothes are damaged?
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-a">In the rare event of damage, we take full responsibility. Contact us within 24 hours of delivery with photos, and we'll compensate you fairly per our damage policy.</div>
+        </div>
+        <div class="faq-item reveal">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Is there a minimum order for pickup?
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-a">There's no strict minimum order. However, for areas further from our facility, we may require a minimum order value to cover delivery costs. Contact us to confirm for your location.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <div class="final-cta">
+    <h2>Ready for <span class="accent">Professional</span> Laundry Care?</h2>
+    <p>Choose any of our services and experience the CleanKulture difference. First order includes free pickup & delivery.</p>
+    <div class="cta-btns">
+      <a href="index.html#book" class="btn btn-primary btn-lg"><i class="fas fa-calendar-check"></i> Book Pickup Now</a>
+      <a href="https://wa.me/2347054004525?text=Good%20day%2C%20my%20name%20is%20%5BYour%20Name%5D.%20I%20am%20located%20at%20%5BYour%20Area%20in%20Ibadan%5D.%20I%20would%20like%20to%20%5Bdescribe%20how%20CleanKulture%20can%20help%20you%5D" class="btn btn-wa btn-lg"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+      <a href="tel:+2347054004525" class="btn btn-outline"><i class="fas fa-phone"></i> Call CleanKulture</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon" style="background:rgba(255,255,255,.08);"><i class="fas fa-tshirt"></i></div>
+            <div>
+              <div class="logo-text" style="color:#fff;">Clean<span>Kulture</span></div>
+              <div class="logo-sub" style="color:rgba(255,255,255,.4);">Laundry Services</div>
+            </div>
+          </a>
+          <p>Premium laundry, dry cleaning and ironing services with free pickup & delivery across Ibadan, Oyo State.</p>
+          <div class="social-row">
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-btn" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://wa.me/2347054004525?text=Good%20day%2C%20my%20name%20is%20%5BYour%20Name%5D.%20I%20am%20located%20at%20%5BYour%20Area%20in%20Ibadan%5D.%20I%20would%20like%20to%20%5Bdescribe%20how%20CleanKulture%20can%20help%20you%5D" class="social-btn" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#wash-fold">Wash & Fold</a></li>
+            <li><a href="#dry-cleaning">Dry Cleaning</a></li>
+            <li><a href="#ironing">Ironing & Pressing</a></li>
+            <li><a href="#duvets">Duvets & Bedding</a></li>
+            <li><a href="#commercial">Commercial Laundry</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <p><a href="tel:+2347054004525">+234 705 400 4525</a></p>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <p><a href="https://wa.me/2347054004525?text=Good%20day%2C%20my%20name%20is%20%5BYour%20Name%5D.%20I%20am%20located%20at%20%5BYour%20Area%20in%20Ibadan%5D.%20I%20would%20like%20to%20%5Bdescribe%20how%20CleanKulture%20can%20help%20you%5D">WhatsApp Us</a></p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>folarinsamuel1234@gmail.com</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <p>Mon–Sat: 7am – 9pm<br>Sunday: 9am – 6pm</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 CleanKulture Laundry Services. All rights reserved.</span>
+        <span>Designed with <i class="fas fa-heart" style="color:var(--green);"></i> in Ibadan</span>
+                <span style="font-size:.75rem;">Website built &amp; designed by <strong style="color:var(--green);">FS Technologies</strong> — Web. Apps. Innovation.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/2347054004525?text=Good%20day%2C%20my%20name%20is%20%5BYour%20Name%5D.%20I%20am%20located%20at%20%5BYour%20Area%20in%20Ibadan%5D.%20I%20would%20like%20to%20%5Bdescribe%20how%20CleanKulture%20can%20help%20you%5D" class="float-wa" title="Chat on WhatsApp" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
