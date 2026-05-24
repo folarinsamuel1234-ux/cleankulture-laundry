@@ -236,12 +236,19 @@
   font-weight: 600;
   color: #0B1F3A;
   animation: floatBadge 4s ease-in-out infinite;
+  z-index: 10;
 }
 
 .badge-top {
-  top: -15px;
-  right: 20px;
+  top: -20px;
+  right: 30px;
   animation-delay: 0s;
+}
+
+.badge-bottom {
+  bottom: -20px;
+  left: 30px;
+  animation-delay: 2s;
 }
 
 @keyframes floatBadge {
