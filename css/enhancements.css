@@ -3,6 +3,45 @@
    Modern Landing Page Styles
    ========================================= */
 
+/* Logo Styling */
+.logo-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.logo-img-footer {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .logo-img-footer {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .logo-img-footer {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 /* Hero Background Animation */
 .hero-bg-animation {
   position: absolute;
