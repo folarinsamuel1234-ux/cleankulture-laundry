@@ -336,20 +336,42 @@
   .trust-indicators {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .hero-title {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 768px) {
   .hero {
     min-height: auto;
-    padding: 80px 0 60px;
+    padding: 100px 0 60px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px 0;
   }
 
   .hero-title {
     font-size: 2.2rem;
+    line-height: 1.15;
+  }
+
+  .hero-sub {
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+
+  .hero-badge {
+    font-size: 0.75rem;
+    padding: 8px 16px;
   }
 
   .hero-ctas {
     flex-direction: column;
+    gap: 12px;
   }
 
   .hero-ctas .btn {
@@ -359,13 +381,364 @@
 
   .trust-indicators {
     grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .trust-item {
+    font-size: 0.85rem;
+    padding: 10px 12px;
+  }
+
+  .hero-visual {
+    order: -1;
+    margin-bottom: 20px;
+  }
+
+  .hero-card-main {
+    padding: 24px;
+  }
+
+  .hero-img-wrap {
+    height: 250px;
+  }
+
+  .hero-img-wrap i {
+    font-size: 3.5rem;
   }
 
   .stat-card {
     display: none;
   }
 
-  .floating-shape {
+  .floating-badge {
     display: none;
+  }
+
+  .floating-shape {
+    opacity: 0.05;
+  }
+
+  /* Mobile Navigation Improvements */
+  .mobile-nav {
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .mobile-nav ul {
+    padding: 20px 0;
+  }
+
+  .mobile-nav ul li a {
+    padding: 14px 24px;
+    font-size: 1rem;
+  }
+
+  .mobile-ctas {
+    padding: 20px 24px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .mobile-ctas .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Announcement Bar Mobile */
+  .announce-bar {
+    font-size: 0.75rem;
+    padding: 8px 12px;
+  }
+
+  .announce-bar i {
+    font-size: 0.7rem;
+  }
+
+  /* Section Padding Mobile */
+  section {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-sub {
+    font-size: 0.95rem;
+  }
+
+  /* Services Grid Mobile */
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .service-card {
+    padding: 24px;
+  }
+
+  /* Reviews Mobile */
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-card {
+    padding: 24px;
+  }
+
+  /* Steps Mobile */
+  .steps-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  /* Stats Grid Mobile */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .stat-box {
+    padding: 16px;
+  }
+
+  .stat-box .num {
+    font-size: 1.5rem;
+  }
+
+  /* Pricing Table Mobile */
+  .pricing-table {
+    font-size: 0.85rem;
+  }
+
+  .pricing-table thead {
+    display: none;
+  }
+
+  .pricing-table tbody tr {
+    display: block;
+    margin-bottom: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 16px;
+    background: #ffffff;
+  }
+
+  .pricing-table td {
+    display: block;
+    padding: 8px 0;
+    text-align: left !important;
+    border: none;
+  }
+
+  .pricing-table td:first-child {
+    font-weight: 600;
+    padding-top: 0;
+  }
+
+  .pricing-table td:last-child {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #10B981;
+    padding-bottom: 0;
+  }
+
+  /* Booking Form Mobile */
+  .booking-form-wrap {
+    padding: 24px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-group {
+    margin-bottom: 16px;
+  }
+
+  /* Area List Mobile */
+  .area-list {
+    gap: 10px;
+  }
+
+  .area-pill {
+    font-size: 0.85rem;
+    padding: 10px 16px;
+  }
+
+  /* Footer Mobile */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  /* FAQ Mobile */
+  .faq-item {
+    margin-bottom: 12px;
+  }
+
+  .faq-q {
+    padding: 16px;
+    font-size: 0.95rem;
+  }
+
+  .faq-a {
+    padding: 16px;
+    font-size: 0.9rem;
+  }
+
+  /* Final CTA Mobile */
+  .final-cta {
+    padding: 60px 24px;
+  }
+
+  .final-cta h2 {
+    font-size: 1.8rem;
+  }
+
+  .final-cta p {
+    font-size: 0.95rem;
+  }
+
+  .cta-btns {
+    flex-direction: column;
+  }
+
+  .cta-btns .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .hero {
+    padding: 80px 0 50px;
+  }
+
+  .hero-title {
+    font-size: 1.9rem;
+  }
+
+  .hero-sub {
+    font-size: 0.95rem;
+  }
+
+  .hero-badge {
+    font-size: 0.7rem;
+    padding: 7px 14px;
+  }
+
+  .trust-item {
+    font-size: 0.8rem;
+    padding: 8px 10px;
+  }
+
+  .trust-item i {
+    font-size: 0.9rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .section-sub {
+    font-size: 0.9rem;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+
+  .service-card {
+    padding: 20px;
+  }
+
+  .svc-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .svc-icon i {
+    font-size: 1.5rem;
+  }
+
+  .review-card {
+    padding: 20px;
+  }
+
+  .review-text {
+    font-size: 0.9rem;
+  }
+
+  .step-card {
+    padding: 24px;
+  }
+
+  .step-num {
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+  }
+
+  .btn-lg {
+    padding: 14px 24px;
+    font-size: 0.95rem;
+  }
+
+  .quality-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quality-card {
+    height: 180px;
+  }
+
+  .floating-wa {
+    width: 50px;
+    height: 50px;
+  }
+
+  .floating-wa i {
+    font-size: 1.5rem;
+  }
+
+  .back-to-top {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 360px) {
+  .hero-title {
+    font-size: 1.7rem;
+  }
+
+  .hero-sub {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 12px 20px;
+    font-size: 0.85rem;
+  }
+
+  .btn-lg {
+    padding: 13px 22px;
+    font-size: 0.9rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
   }
 }

@@ -1512,6 +1512,26 @@ footer {
   .form-group.full { grid-column: 1; }
   
   .page-header { padding: 90px 0 60px; }
+
+  /* Mobile viewport height fix */
+  .hero {
+    min-height: -webkit-fill-available;
+  }
+
+  /* Prevent horizontal scroll */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Improve touch targets */
+  .btn {
+    min-height: 44px;
+  }
+
+  /* Better spacing for mobile */
+  .mt-32 {
+    margin-top: 24px;
+  }
 }
 
 @media (max-width: 480px) {
