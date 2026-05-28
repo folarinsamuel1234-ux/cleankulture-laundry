@@ -35,7 +35,7 @@ body {
   position: relative;
   overflow: hidden;
   background: linear-gradient(135deg, #0B1F3A 0%, #0f2b4a 50%, #0B1F3A 100%);
-  padding: 120px 0 100px;
+  padding: 100px 0 80px;
 }
 
 .hero::before {
@@ -61,41 +61,41 @@ body {
 .floating-shape {
   position: absolute;
   border-radius: 50%;
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(52, 211, 153, 0.05));
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(52, 211, 153, 0.03));
   backdrop-filter: blur(40px);
-  animation: floatShape 20s ease-in-out infinite;
+  animation: floatShape 25s ease-in-out infinite;
 }
 
 .shape-1 {
-  width: 400px;
-  height: 400px;
-  top: -100px;
-  left: -100px;
+  width: 350px;
+  height: 350px;
+  top: -80px;
+  left: -80px;
   animation-delay: 0s;
 }
 
 .shape-2 {
-  width: 300px;
-  height: 300px;
-  bottom: -50px;
+  width: 250px;
+  height: 250px;
+  bottom: -40px;
   right: 10%;
-  animation-delay: -5s;
+  animation-delay: -6s;
 }
 
 .shape-3 {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   top: 30%;
   right: 20%;
-  animation-delay: -10s;
+  animation-delay: -12s;
 }
 
 .shape-4 {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   bottom: 20%;
   left: 15%;
-  animation-delay: -15s;
+  animation-delay: -18s;
 }
 
 @keyframes floatShape {
@@ -115,11 +115,11 @@ body {
 
 /* Hero Content Enhancement */
 .hero-title {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2rem, 4.5vw, 3.25rem);
   font-weight: 800;
-  line-height: 1.1;
+  line-height: 1.15;
   letter-spacing: -0.02em;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   color: #ffffff;
   text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
@@ -141,23 +141,23 @@ body {
 }
 
 .hero-sub {
-  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-size: clamp(0.95rem, 1.75vw, 1.1rem);
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.85);
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   max-width: 600px;
 }
 
 .hero-ctas {
   display: flex;
-  gap: 16px;
+  gap: 14px;
   flex-wrap: wrap;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .hero-ctas .btn {
-  padding: 16px 32px;
-  font-size: 1.05rem;
+  padding: 14px 28px;
+  font-size: 0.95rem;
   font-weight: 600;
   border-radius: 12px;
   transition: all var(--transition-base);
@@ -206,24 +206,24 @@ body {
 /* Trust Indicators */
 .trust-indicators {
   display: flex;
-  gap: 24px;
+  gap: 20px;
   flex-wrap: wrap;
-  padding-top: 24px;
+  padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .trust-item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   font-weight: 500;
 }
 
 .trust-item i {
   color: #34D399;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /* Hero Card Enhancement */
@@ -231,16 +231,18 @@ body {
   position: relative;
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);
-  border-radius: 24px;
-  padding: 40px;
+  border-radius: 20px;
+  padding: 32px;
   backdrop-filter: blur(20px);
   box-shadow: var(--shadow-xl);
   transition: all var(--transition-base);
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .hero-card-main:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.25);
   border-color: rgba(52, 211, 153, 0.3);
 }
 
@@ -263,34 +265,35 @@ body {
 .floating-badge {
   position: absolute;
   background: white;
-  padding: 12px 20px;
+  padding: 10px 16px;
   border-radius: 50px;
   display: flex;
   align-items: center;
-  gap: 8px;
-  box-shadow: var(--shadow-lg);
+  gap: 6px;
+  box-shadow: var(--shadow-md);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #0B1F3A;
   animation: floatBadge 3s ease-in-out infinite;
   z-index: 10;
+  white-space: nowrap;
 }
 
 .badge-top {
-  top: -15px;
-  right: 30px;
+  top: -12px;
+  right: 20px;
   animation-delay: 0s;
 }
 
 .badge-bottom {
-  bottom: -15px;
-  left: 30px;
+  bottom: -12px;
+  left: 20px;
   animation-delay: -1.5s;
 }
 
 .floating-badge i {
   color: #10B981;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
 }
 
 @keyframes floatBadge {
@@ -306,14 +309,15 @@ body {
 .stat-card {
   position: absolute;
   background: white;
-  padding: 20px 24px;
-  border-radius: 16px;
+  padding: 16px 20px;
+  border-radius: 14px;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   box-shadow: var(--shadow-lg);
   z-index: 5;
   transition: all var(--transition-base);
+  min-width: 160px;
 }
 
 .stat-card:hover {
@@ -322,24 +326,25 @@ body {
 }
 
 .stat-left {
-  top: 50px;
-  left: -40px;
+  top: 40px;
+  left: -30px;
 }
 
 .stat-right {
-  bottom: 50px;
-  right: -40px;
+  bottom: 40px;
+  right: -30px;
 }
 
 .stat-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: white;
+  flex-shrink: 0;
 }
 
 .stat-icon.green {
@@ -351,16 +356,17 @@ body {
 }
 
 .stat-num {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: #0B1F3A;
   line-height: 1;
 }
 
 .stat-label {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.6);
-  margin-top: 4px;
+  margin-top: 3px;
+  line-height: 1.2;
 }
 
 /* === SERVICES SECTION ENHANCEMENT === */
